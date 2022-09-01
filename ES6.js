@@ -18,3 +18,17 @@ console.log(...str_arr);
 
 str_arr2=[...str_arr].concat(num_arr);
 console.log(str_arr2);
+[arr1,arr2,...otherarr]=["sas","abc","raj","dev","xyz","max"];
+console.log(arr1);
+console.log(otherarr);
+const a = 5;
+const b = 10;
+console.log(`total is ${a + b}`);
+let [sas,abc,raj,dev,xyz,max,yes,no]=num_arr;
+console.log(raj);
+
+let str5 = "";
+for (let x in details) {
+  str5 += details[x];
+}
+console.log(str5);
